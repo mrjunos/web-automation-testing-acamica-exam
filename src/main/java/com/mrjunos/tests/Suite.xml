@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Exam Suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <test name="First test">
+        <classes>
+            <class name="com.mrjunos.tests.TravelocityTests"/>
+        </classes>
+    </test>
+</suite>
